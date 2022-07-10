@@ -16,14 +16,7 @@
 
 
     }
-    /*void CityAdress()
-    {
-        string cityname;
-        string state;
-        int zipcode;
-        long phoneNo;
-        string email_id;
-    }*/
+    
     public static void Main()
     {
         AddressBook add = new AddressBook();
