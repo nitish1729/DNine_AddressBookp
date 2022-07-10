@@ -1,11 +1,15 @@
-﻿public class AddressBook
+﻿
+// Ability to create a Contacts in Address Book with first and last names,
+// address,city, state, zip, phone number and email...
+
+public class AddressBook
 {
     string cityname;
     string state;
     double zipcode;
     long phoneNo;
     string email_id;
-    void name(string firstname,string lastname)
+    void name(string firstname,string lastname) 
     { 
         string fullname = firstname+ " " + lastname;
 
@@ -33,6 +37,6 @@
               Console.WriteLine("state    is :-" + add.state);
               Console.WriteLine("zipcode  is :-" + add.zipcode);
               Console.WriteLine("phoneNo  is :-" + add.phoneNo);
-              Console.WriteLine("mail_id  is :-" + add.email_id);
+              Console.WriteLine("email_id  is :-" + add.email_id);
         }
 } 
